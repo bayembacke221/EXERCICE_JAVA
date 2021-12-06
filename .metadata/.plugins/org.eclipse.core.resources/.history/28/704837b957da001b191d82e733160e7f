@@ -1,0 +1,12 @@
+import java.io.Serializable;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+public class IHELLOImpl extends UnicastRemoteObject implements IHELLO, Serializable{
+	public IHELLOImpl() throws RemoteException{
+		super();
+	}
+	public String disHello() throws RemoteException{
+		return "bonjour a distance";
+	}
+}

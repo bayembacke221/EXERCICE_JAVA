@@ -1,0 +1,17 @@
+package signup.login;
+
+public class UtilisateurDataBaseImpl implements UtilisateurDataBase {
+
+	@Override
+	public int insertUtilisateur(Utilisateur user) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Utilisateur getUser(String username, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

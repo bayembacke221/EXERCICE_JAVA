@@ -1,0 +1,10 @@
+
+import java.io .*;
+class Filtre implements FilenameFilter {
+public boolean accept (File rep, String nom) {
+/*on définit les conditions du filtre*/
+if (rep.isDirectory ( ) && nom.endsWith(".java")) return true;
+else
+return false;
+}
+}

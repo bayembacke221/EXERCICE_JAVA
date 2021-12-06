@@ -1,0 +1,11 @@
+computeSourcePath=true
+contextsDir=/usr/local/tomcat10/apache-tomcat-9.0.46/conf/Catalina/localhost
+eclipse.preferences.version=1
+managerPassword=Bayembacke221
+managerUrl=http\://localhost\:8080/manager
+managerUser=bayembacke221
+projectsInSourcePath=CLasseLocale;ChaineInverse;ClasseInterneSimple;ClasseString;ClasseSwing;CompteBancaire;CoursInterface;Cours_M_Ndong;Equation_Second_degre;ExempleFiltre;ExerciceCours;Extraction;Factoriel;Fichier;File&Swing;Filtre;Filtre2;Heart;HelloWorld;Liste;ListeString;Majuscule;Montre;Point;Recherche;Scanner;Somme;Somme_Harmonique;Suffixe;Tableau;TableauVoyelle;TestJava;TestMaven;TestOperation;Tester;TriString;compte;test_unitaire;
+tomcatConfigFile=/usr/local/tomcat10/apache-tomcat-9.0.46/conf/server.xml
+tomcatDir=/usr/local/tomcat10/apache-tomcat-9.0.46
+tomcatJRE=1620949957762
+tomcatVersion=tomcatV8

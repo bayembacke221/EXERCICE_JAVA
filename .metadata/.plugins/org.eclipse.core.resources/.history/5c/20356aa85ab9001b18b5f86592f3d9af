@@ -1,0 +1,8 @@
+
+public class FiltreTest {
+	public static void main (String args[] ){
+	new FiltreTest( ).affiche("Documents"); // test: on filtre le repertoire racine ( .)
+	
+}
+
+}

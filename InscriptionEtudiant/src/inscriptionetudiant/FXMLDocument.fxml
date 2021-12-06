@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="737.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inscriptionetudiant.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <VBox layoutX="22.0" layoutY="14.0" prefHeight="181.0" prefWidth="139.0" spacing="32.0">
+         <children>
+            <Label text="Identifiant" />
+            <Label layoutX="10.0" layoutY="10.0" text="Prenom" />
+            <Label layoutX="10.0" layoutY="26.0" text="Nom" />
+            <Label layoutX="10.0" layoutY="42.0" text="Age" />
+         </children>
+      </VBox>
+      <VBox layoutX="145.0" layoutY="14.0" prefHeight="181.0" prefWidth="268.0" spacing="20.0">
+         <children>
+            <TextField fx:id="tf_identifiant" />
+            <TextField fx:id="tf_prenom" layoutX="10.0" layoutY="10.0" />
+            <TextField fx:id="tfnom" layoutX="10.0" layoutY="36.0" />
+            <TextField fx:id="tfAge" layoutX="10.0" layoutY="62.0" />
+         </children>
+      </VBox>
+      <Button fx:id="btnValider" layoutX="57.0" layoutY="226.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: green;" text="Ajouter" />
+      <TableView fx:id="tvAjout" layoutX="92.0" layoutY="275.0" prefHeight="200.0" prefWidth="505.0">
+        <columns>
+          <TableColumn fx:id="colIdentifiant" prefWidth="110.0" text="Identifiant" />
+          <TableColumn fx:id="colPrenom" prefWidth="123.0" text="Nom" />
+            <TableColumn fx:id="colNom" prefWidth="119.0" text="Prenom" />
+            <TableColumn fx:id="colAge" prefWidth="152.0" text="Age" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnUpdate" layoutX="275.0" layoutY="226.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: green;" text="Modifier" />
+      <Button fx:id="btnDelete" layoutX="501.0" layoutY="226.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="38.0" prefWidth="139.0" style="-fx-background-color: red;" text="Supprimer" />
+    </children>
+</AnchorPane>

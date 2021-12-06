@@ -1,0 +1,22 @@
+package cours.java;
+
+public class ValeurPaire {
+	public int [] valeurPaire(int [] tableau1,int [] tableau2) {
+		int [] tableauxfinal = null;
+		int cpt=0;
+		for(int i = 0; i<tableau1.length;i++) {
+			for(int j = 0; j<tableau2.length;j++) {
+				if(tableau1[i]%tableau2[j]==0) {
+					tableauxfinal[cpt]=tableau1[i];
+				}
+				else if(tableau2[j]%tableau1[i]==0){
+					tableauxfinal[cpt]=tableau2[i];
+				}
+			}
+		}
+		
+		
+		
+		return tableauxfinal;
+	}
+}

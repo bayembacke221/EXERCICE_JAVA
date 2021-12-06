@@ -1,0 +1,14 @@
+import java.io.File;
+
+public class FiltreTest {
+	public static void main (String args[] ){
+	new FiltreTest( ).affiche("../Documents"); // test: on filtre le repertoire racine ( .)
+	
+}
+public void affiche(String rep) {
+	File fichier = new File (rep); // on veut filtrer ce repertoire
+	String nomFics [] = fichier.list ( new Filtre() );// on lui associe donc un filtre
+	for (int i = 0; i < nomFics.length; i++)
+	System.out.println (nomFics [i]);
+	}
+}

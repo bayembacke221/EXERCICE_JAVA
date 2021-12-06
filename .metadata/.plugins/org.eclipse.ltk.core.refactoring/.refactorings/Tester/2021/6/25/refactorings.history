@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Untitled.jar&apos; to &apos;Tester&apos;" description="Move &apos;Untitled.jar&apos; to &apos;Tester&apos;" destination="/Tester" element1="/TestJ2EE/Untitled.jar" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1624466359329" updateReferences="true"/>
+</session>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/bayembacke/Documents/Programmation_oriente_obj/Section_Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+119237366.index
+872574151.index
+1743339903.index
+2151631431.index
+2073500035.index
+4210518207.index

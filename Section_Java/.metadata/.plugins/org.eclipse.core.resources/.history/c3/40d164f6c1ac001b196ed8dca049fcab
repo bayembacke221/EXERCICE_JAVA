@@ -1,0 +1,7 @@
+package essaie.array;
+
+public class chaineVoyelle {
+	public static [] char voyelle(String chaine) {
+		
+	}
+}
